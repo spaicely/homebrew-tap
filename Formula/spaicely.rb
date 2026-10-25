@@ -1,28 +1,28 @@
 class Spaicely < Formula
   desc "Preview, deploy and manage sites hosted on Spaicely"
   homepage "https://spaicely.com/developers/"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/spaicely/cli/releases/download/v0.1.0/spaicely-darwin-arm64.tar.gz"
-      sha256 "b6299db2f4202b82f340c9813867f25bc959880b7c5aa776e5dd1519746dd31d"
+      url "https://github.com/spaicely/cli/releases/download/v0.2.0/spaicely-darwin-arm64.tar.gz"
+      sha256 "43a44e14727af2fe6eb7a019a4d40bbcac16e30c3216394e930f2c2102139236"
     end
     on_intel do
-      url "https://github.com/spaicely/cli/releases/download/v0.1.0/spaicely-darwin-x64.tar.gz"
-      sha256 "3f6d90f7160a3d3341a11380e42dc90894a9acd87c42f888a185af946c5ea4de"
+      url "https://github.com/spaicely/cli/releases/download/v0.2.0/spaicely-darwin-x64.tar.gz"
+      sha256 "26af9a86dff63923360b21b70ff47636039c738ab3f1fe3c0bdb4db3d3786aa6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/spaicely/cli/releases/download/v0.1.0/spaicely-linux-arm64.tar.gz"
-      sha256 "a7e1c338d666eea966f5e14a01daa72a1419f5a62b76bd6c2d88524a7a9de4e0"
+      url "https://github.com/spaicely/cli/releases/download/v0.2.0/spaicely-linux-arm64.tar.gz"
+      sha256 "ccf77c75ddfdc4ea898c6cefc7a586d9ec275382daeac283b6f10d8260be51a7"
     end
     on_intel do
-      url "https://github.com/spaicely/cli/releases/download/v0.1.0/spaicely-linux-x64.tar.gz"
-      sha256 "8a8339678cc743a5f6158a3e636672d29bbdb2c3cab8867512921d5a68b8265a"
+      url "https://github.com/spaicely/cli/releases/download/v0.2.0/spaicely-linux-x64.tar.gz"
+      sha256 "4302a55c701f14dab9ebd689b37c1ecd08dc31ef234c8eeca349d51311c46513"
     end
   end
 
